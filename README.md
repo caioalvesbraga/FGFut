@@ -67,7 +67,17 @@ E aqui sendo aplicada ao login do usuário.
 # Tecnologias utilizadas
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style = "width: 60px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" style = "width: 60px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" style = "width: 60px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style = "width: 60px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style = "width: 60px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style = "width: 60px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" style = "width: 60px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style = "width: 60px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" style = "width: 60px"/><br>
+- ``Python``
+- ``Flask``
+- ``MySQL``
+- ``Javascript``
+- ``HTML5``
+- ``CSS3``
+- ``Figma``
+- ``Paradigma de orientação a objetos``
+- ``Postman``
+- ``VSCode``
 
 # Pessoas Desenvolvedoras do Projeto
 
