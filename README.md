@@ -57,7 +57,7 @@ E aqui sendo aplicada ao login do usuário.
 
 # Acesso ao projeto
 
-  A aplicação pode ser acessada no endereço www.fgfut.github.io/FFRepo. As rotas para cada página são:
+  A aplicação pode ser acessada no endereço www.meanmustard.github.io/FGFut. As rotas para cada página são:
 
 ### '/' - Para acessar a página inicial
 ### '/cadastro' - Para acessar a página de cadastro
