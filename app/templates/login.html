@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FGFut | Sign In</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/icons.css">
+    <link rel="stylesheet" href="../static/css/media-queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <a href = "/homepage"><img src="../static/img/logo_final.png" alt="logo do FutebasDS" class="img__logo"></a>
+        <a href="/cadastro" class="cabecalho__signup">Inscreva-se</a>
+    </header>
+
+    <main class="conteudo-principal">
+            <form class="login__form" action = "logar" method = "POST">
+                <h1 class="login__titulo">Entrar</h1>
+                <input type="email" name="email" placeholder="Insira um e-mail" class="login__input-email" id="input-login__email">
+                <input  type="password" name ="senha" placeholder="Insira uma senha" class="login__input-password" id="input-login__password">
+                <button class="login__button" id="login__button">Jogar!</button>
+                <a href="recovery.html" class="login__recovery">Esqueceu a senha?</a>
+            </form>
+    </main>
+
+    <footer class="rodape">
+        <p class="members-box">Feudo Roxo Lavanda<br>Caio F., Doan, Gustavo, Mariana e Mateus</p>
+        <div class = "footer__vertical-alignment">
+            <a href="https://github.com/FutebasDS/FutJS" aria-label="GitHub da Equipe" class="icon-github_icon text-decoration-none" target="_blank"><i></i></a>
+            <i class="icon-unb_icon"></i>
+        </div>
+    </footer>
+    <script src="../static/js/login.js"></script>
+</body>
+</html>

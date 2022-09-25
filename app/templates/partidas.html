@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FGFut | Partidas</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/icons.css">
+    <link rel="stylesheet" href="../static/css/media-queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+            <nav class="cabecalho__partidas">
+                <img src="../static/img/logo_final.png" alt="logo do FutebasDS" class="img__logo">
+                <a href="/login" class="home__link">Sair</a>
+            </nav>
+    </header>
+    <main class="conteudo-principal__partidas">
+        <div class="match__container-first">
+            <h2>Partida 1 - 13h</h2>
+            <img src="../static/img/mengo.png" alt="Logo Do Flamengo" class="mengo__icon">
+            <i class="icon-x_icon"></i>
+            <img src="../static/img/liverpool.png" alt="Logo Do Liverpool" class="liverpool__icon">
+            <button id="btn-partidas-first"><span id="mais__state-first"></span></button>
+           
+           
+            <!--Botão participantes-->
+            <div  class="button__participantes" id="button__participantes"> Participantes </div>
+            <div  class="parentbox1" sytle="none">
+                <div  onclick="fechar()" class="fechar"></div>
+                <div class="modal1 ">
+
+                    <h1 class="titulo1">Flamengo</h1>
+                    <ul class="modal__participantes"> 
+                        <li>Doan</li>
+                        <li>Caio</li>
+                        <li>Mari</li>
+                        <li>Mateus</li>
+                        <li>Jogador5</li>
+                        
+                    </ul>
+                    
+                </div>
+                <div class="modal2">
+                    <h3 class="titulo2">Liverpool</h3>
+                    <ul class="modal__participantes"> 
+                        <li>Jogador1</li>
+                        <li>Jogador2</li>
+                        <li>Jogador3</li>
+                        <li>Jogador4</li>
+                        <li>Jogador5</li>
+                        
+                    </ul>
+            
+                </div>
+
+                </div>
+            </div>
+        
+        
+            <!--Fechamento da divgrande-->
+        </div>
+        
+        
+        
+        <div class="match__container-second">
+            <h2>Partida 2 - 16h</h2>
+            <img src="../static/img/curinthia.png" alt="Logo Do Corinthias" class="curinthia__icon">
+            <i class="icon-x_icon"></i>
+            <img src="../static/img/palmeira.png" alt="Logo Do Palmeiras" class="palmeira__icon">
+            <button id="btn-partidas-second"><span id="mais__state-second"></span></button>
+            <!--Bot-->
+            
+            
+            <div  onclick ="acao2()" class="button__participantes2" id="button__participantes2"> Participantes </div>
+            <div  class="parentbox2" sytle="none">
+                <div  onclick="fecharp2()" class="fecharp2"></div>
+                
+                <div class="modal3">
+                    <h1 class="titulop21">Corinthias</h1>
+                    <ul class="modal__participantes"> 
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        
+                    </ul>
+                </div>
+                <div class="modal4">
+                    <h3 class="titulop22">Palmeras</h3>
+                    <ul class="modal__participantes"> 
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        
+                    </ul>
+            
+                
+                </div>
+            </div>
+        </div>
+            
+            
+        
+        
+        
+        
+        <div class="match__container-third">
+            <h2>Partida 3 - 18h</h2>
+            <img src="../static/img/barca.png" alt="Logo Do Barcelona" class="barca__icon">
+            <i class="icon-x_icon"></i>
+            <img src="../static/img/real.png" alt="Logo Do Real Madrid" class="real__icon">
+            <button id="btn-partidas-third"><span id="mais__state-third"></span></button>
+            
+            <div  onclick ="acao3()" class="button__participantes3" id="button__participantes3"> Participantes </div>
+            <div  class="parentbox3" sytle="none">
+                <div  onclick="fecharp3()" class="fecharp3"></div>
+                
+                <div class="modal5">
+                    <h1 class="titulo5">Barcelona</h1>
+                    <ul class="modal__participantes"> 
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        <li>fulano</li>
+                    </ul>
+                </div>
+                <div class="modal6">
+                    <h3 class="titulo6">Real madrid</h3>
+                    <ul class="modal__participantes"> 
+                        <li>fulano<li>
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        <li>fulano</li>
+                        <li>fulano</li>
+                    </ul>
+            
+                
+                </div>
+            </div>
+        </div>
+
+            
+            
+            
+       
+       
+       
+       <!--Fechamento da divpai-->
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <p class="members-box">Feudo Roxo Lavanda<br>Caio F., Doan, Gustavo, Mariana e Mateus</p>
+        <div class = "footer__vertical-alignment">
+            <a href="https://github.com/FutebasDS/FutJS" aria-label="GitHub da Equipe" class="icon-github_icon text-decoration-none" target="_blank"><i></i></a>
+            <i class="icon-unb_icon"></i>
+        </div>
+    </footer>
+</body>
+<script src="../static/js/main.js"></script>
+<script src="../static/js/script.js"></script>
+</html>

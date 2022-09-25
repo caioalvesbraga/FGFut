@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FGFut | Sign Up</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/icons.css">
+    <link rel="stylesheet" href="../static/css/media-queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="../static/img/logo_final.png" alt="logo do FutebasDS" class="img__logo">
+        <a href="/login" class="cabecalho__signin">Entrar</a>
+    </header>
+
+    <main class="cadastro__conteudo-principal">
+            
+            <form class="form__container-signup">
+                <h1 class="titulo__signup">Cadastro</h1>
+                <input type="text" placeholder="Nome" class="input__cadastro-nome" id="input__cadastro-nome">
+                <span class="span-required">O nome deve ter no mínimo 3 caracteres</span>
+                <input type="email" placeholder="E-mail" class="input__cadastro-email" id="input__cadastro-email">
+                <span class="span-required">Digite um e-mail válido</span>
+                <input  type="password" placeholder="Senha" class="input__cadastro-senha" id="input__cadastro-password">
+                <span class="span-required">A senha deve conter no mínimo 8 caracteres</span>
+                <input  type="password" placeholder="Confirmar senha" class="input__cadastro-confirmasenha" id="input__cadastro-confirmapassword">
+                <span class="span-required">As senhas devem ser iguais</span>
+                <a href="partidas.html" class="button__signup" id="button__signup">Pedir primeira!</a>
+            </form>
+    </main>
+
+    <footer class="rodape">
+        <p class="members-box">Feudo Roxo Lavanda<br>Caio F., Doan, Gustavo, Mariana e Mateus</p>
+        <div class = "footer__vertical-alignment">
+            <a href="https://github.com/FutebasDS/FutJS" aria-label="GitHub da Equipe" class="icon-github_icon text-decoration-none" target="_blank"><i></i></a>
+            <i class="icon-unb_icon"></i>
+        </div>
+    </footer>
+
+    <script src="../static/js/cadastro.js"></script>
+    
+</body>
+</html>
