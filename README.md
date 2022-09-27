@@ -57,7 +57,7 @@ E aqui sendo aplicada ao login do usuário.
 
 # Acesso ao projeto
 
-  A aplicação pode ser acessada no endereço www.fgfut.github.io/FFRepo. As rotas para cada página são:
+  A aplicação pode ser acessada no endereço www.meanmustard.github.io/FGFut. As rotas para cada página são:
 
 ### '/' - Para acessar a página inicial
 ### '/cadastro' - Para acessar a página de cadastro
@@ -81,7 +81,7 @@ E aqui sendo aplicada ao login do usuário.
 
 # Pessoas Desenvolvedoras do Projeto
 
-[<img src = "https://user-images.githubusercontent.com/86745462/192162900-9297c156-eb6e-4238-8fe0-05c640897cc0.jpeg" width = 115 height = 180><br><sub>Caio Alves Braga</sub>](https://github.com/meanmustard) | [<img src = "https://user-images.githubusercontent.com/86745462/192162970-25adfbe0-3a12-40c4-bd0d-e900accdb137.jpg" width = 115 height = 150><br><sub>Doan Galvão Filho</sub>](https://github.com/D04nd6) | [<img src = "https://user-images.githubusercontent.com/86745462/192163119-6861d18e-4f06-43c6-a107-ccba48b0aa53.jpeg" width = 115 height = 140><br><sub>Gustavo Lima</sub>](https://github.com/gustavolima973) | [<img src = "https://user-images.githubusercontent.com/86745462/192163212-5855b1d0-d03a-4316-9e71-9a833ae2050e.jpeg" width = 115 height = 110><br><sub>Mariana Letícia</sub](https://github.com/Marianannn)
+[<img src = "https://user-images.githubusercontent.com/86745462/192162900-9297c156-eb6e-4238-8fe0-05c640897cc0.jpeg" width = 115 height = 180><br><sub>Caio Alves Braga</sub>](https://github.com/meanmustard) | [<img src = "https://user-images.githubusercontent.com/86745462/192162970-25adfbe0-3a12-40c4-bd0d-e900accdb137.jpg" width = 115 height = 150><br><sub>Doan Galvão Filho</sub>](https://github.com/D04nd6) | [<img src = "https://user-images.githubusercontent.com/86745462/192163119-6861d18e-4f06-43c6-a107-ccba48b0aa53.jpeg" width = 115 height = 140><br><sub>Gustavo Lima</sub>](https://github.com/gustavolima973) | [<img src = "https://user-images.githubusercontent.com/86745462/192163212-5855b1d0-d03a-4316-9e71-9a833ae2050e.jpeg" width = 115 height = 110><br><sub>Mariana Letícia</sub>](https://github.com/Marianannn)
 | :---: | :---: | :---: | :---: |
 
 # Licença
