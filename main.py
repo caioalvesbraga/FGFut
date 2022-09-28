@@ -76,7 +76,7 @@ def deleta_usuario(id):
 
 #rotas do site
 
-@app.route('/FGFut')
+@app.route('/')
 def homepage():
     return render_template('index.html')
 
