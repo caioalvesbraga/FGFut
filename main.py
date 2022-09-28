@@ -1,4 +1,3 @@
-from re import search
 from flask import Flask, Response, request, render_template, redirect, url_for
 from flask_login import LoginManager, login_user, logout_user
 import json

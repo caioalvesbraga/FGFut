@@ -1,7 +1,6 @@
 from flask import Flask, Response, request, render_template
 from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
-import _mysql_connector
 import json
 
 
