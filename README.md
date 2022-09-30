@@ -52,7 +52,8 @@ E aqui sendo aplicada ao login do usuário.
 ## Página Principal
   Na página de partidas é onde se concentra a parte principal da aplicação. Nesta seção, é possível se inscrever nos horários disponibilizados e ver os participantes de cada time, como pode ser observado abaixo:
   
-![fgfut_partidas](https://user-images.githubusercontent.com/86745462/192161603-ea9927fc-efd7-43af-850f-f0b10f816885.gif)
+  
+![fgfut_partidasFinal](https://user-images.githubusercontent.com/86745462/193354785-873ee321-af01-4a79-b30f-838e39fe56db.gif)
 
 
 # Acesso ao projeto
@@ -80,6 +81,8 @@ Infelizmente, o deploy no GitHub Pages não possibilita que a aplicação tenha 
 - ``Paradigma de orientação a objetos``
 - ``Postman``
 - ``VSCode``
+
+### Link para o Figma do projeto: https://www.figma.com/file/6M3od2tFe7Gmj6XEE8HTmz/FGFut
 
 # Pessoas Desenvolvedoras do Projeto
 
