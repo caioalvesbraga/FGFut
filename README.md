@@ -64,6 +64,8 @@ E aqui sendo aplicada ao login do usuário.
 ### '/login' - Para acessar a página de login
 ### '/partidas' - Para acessar a página principal do site
 
+Infelizmente, o deploy no GitHub Pages não possibilita que a aplicação tenha conexão com o Banco de Dados MySQL utilizado no projeto, contudo é possível observar as páginas desenvolvidas com HTML, CSS e Vanilla JS; basta apenas acessar as rotas.
+
 # Tecnologias utilizadas
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style = "width: 60px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" style = "width: 60px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" style = "width: 60px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style = "width: 60px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style = "width: 60px"/>
