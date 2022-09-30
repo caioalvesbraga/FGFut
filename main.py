@@ -76,15 +76,15 @@ def deleta_usuario(id):
 
 #rotas do site
 
-@app.route('/FGFut/')
+@app.route('/')
 def homepage():
     return render_template('index.html')
 
-@app.route('/FGFut/cadastro')
+@app.route('/cadastro')
 def cadastrar():
     return render_template('cadastro.html')
 
-@app.route('/FGFut/login', methods = ["GET", "POST"])
+@app.route('/login', methods = ["GET", "POST"])
 def entrar():
 
     if request.method == 'POST':
@@ -103,12 +103,12 @@ def entrar():
 
     return render_template('login.html')
 
-@app.route('/FGFut/logout')
+@app.route('/logout')
 def logout():
     logout_user()
     return redirect(url_for('login.html'))
 
-@app.route('/FGFut/partidas')
+@app.route('/partidas')
 def jogo():
     return render_template('partidas.html')
 

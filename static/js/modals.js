@@ -2,14 +2,14 @@ const botao1=document.getElementById('button__participantes')
 const botao2=document.getElementById('button__participantes2')
 const botao3=document.getElementById('button__participantes3')
 
-function acao(){
+function abreDiv1(){
     
     let modal= document.querySelector('.parentbox1')
     modal.style.display = 'block';
     
 }
 
-function fechar(){
+function fechaDiv1(){
     
     let modal= document.querySelector('.parentbox1')
     modal.style.display = 'none';
@@ -17,14 +17,14 @@ function fechar(){
 
 botao1.addEventListener('click',acao)
 
-function acao2(){
+function abreDiv2(){
     
     let modal= document.querySelector('.parentbox2')
     modal.style.display = 'block';
     
 }
 
-function fecharp2(){
+function fechaDiv2(){
     
     let modal= document.querySelector('.parentbox2')
     modal.style.display = 'none';
@@ -32,14 +32,14 @@ function fecharp2(){
 
 botao1.addEventListener('click',acao)
 
-function acao3(){
+function abreDiv3(){
     
     let modal= document.querySelector('.parentbox3')
     modal.style.display = 'block';
     
 }
 
-function fecharp3(){
+function fechaDiv3(){
     
     let modal= document.querySelector('.parentbox3')
     modal.style.display = 'none';

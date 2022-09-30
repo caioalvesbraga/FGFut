@@ -4,37 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FGFut | Home</title>
+    <title>FGFut | Sign In</title>
     <link rel="stylesheet" href="../static/css/style.css">
     <link rel="stylesheet" href="../static/css/reset.css">
     <link rel="stylesheet" href="../static/css/icons.css">
     <link rel="stylesheet" href="../static/css/media-queries.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
 
 </head>
 <body>
     <header class="cabecalho">
-        <img src="../static/img/logo_final.png" alt="logo do FutebasDS" class="img__logo">
+        <a href = "/homepage"><img src="../static/img/logo_final.png" alt="logo do FutebasDS" class="img__logo"></a>
+        <a href="/cadastro" class="cabecalho__signup">Inscreva-se</a>
     </header>
+
     <main class="conteudo-principal">
-        <p class="welcome-box fs-0">Bem-vindo ao <br>FGFut</p>
-        <p class="description-box fs-2">O seu site de partidas<br> da FGA.<br>Entre no jogo!</p>
-        <a href="/cadastro" class="signup__button-homepage text-decoration-none">Sou novo</a>
-        <a href="/login" class="login__link">Já tenho conta</a>
+            <form class="login__form" action = "logar" method = "POST">
+                <h1 class="login__titulo">Entrar</h1>
+                <input type="email" name="email" placeholder="Insira um e-mail" class="login__input-email" id="input-login__email">
+                <input  type="password" name ="senha" placeholder="Insira uma senha" class="login__input-password" id="input-login__password">
+                <button class="login__button" id="login__button">Jogar!</button>
+                <a href="recovery.html" class="login__recovery">Esqueceu a senha?</a>
+            </form>
     </main>
 
     <footer class="rodape">
-        <p class="members-box fs-4">Feudo Roxo Lavanda<br>Caio F., Doan, Gustavo, Mariana e Mateus</p>
+        <p class="members-box">Feudo Roxo Lavanda<br>Caio F., Doan, Gustavo, Mariana e Mateus</p>
         <div class = "footer__vertical-alignment">
             <a href="https://github.com/FutebasDS/FutJS" aria-label="GitHub da Equipe" class="icon-github_icon text-decoration-none" target="_blank"><i></i></a>
             <i class="icon-unb_icon"></i>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="../static/js/login.js"></script>
 </body>
-
 </html>

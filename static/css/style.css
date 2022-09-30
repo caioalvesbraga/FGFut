@@ -488,34 +488,75 @@ main{
     
 }
 
-.fechar, .fecharp2, .fecharp3{
-width: 28px;
-height: 25px;
-background-color: #ff0000;
-border-radius: 50%;
-float: right;
-cursor: pointer;
+.fechar__div1, .fechar__div2, .fechar__div3{
+    width: 45px;
+    height: 30px;
+    background-color: #444444;
+    border-radius: 0 60px 0 30px;
+    float: right;
+    cursor: pointer;
+    transition: .5s;
+}
 
+.fechar__div1:hover, .fechar__div1:active, .fechar__div2:hover,.fechar__div2:active, .fechar__div3:hover, .fechar__div3:active{
+    background-color: #ff2222;
+    transition: .5s;
 }    
 
 .modal__participantes{
-text-align: center;
-margin-top: 50px;
-
-
+    text-align: center;
+    margin-top: 50px;
 }
 .modal1, .modal2, .modal3, .modal4, .modal5, .modal6{
-position: absolute;
+    position: absolute;
+    width: 300px;
 }
 .modal1, .modal3, .modal5{
-left: 2em;
+    left: clamp(1.5em, 2em, 3em);
+    top: 1em;
 }
 .modal2, .modal4, .modal6{
-left: 8em;
+    left: 8em;
 }
 
-.titulo1, .titulo2, .titulop21, .titulop22, .titulo5, .titulo6{
-margin-top: 50px;
+.fechar__xis{
+    background-color: #dddddd;
+    height: 20px;
+    position: absolute;
+    width: 5px;
+    margin: auto; 
+    top: 5px;
+    right: 20px;
+    cursor: pointer;
+    transition: .5s;
+    transform: rotate(45deg);
+}
+
+.fechar__xis::after{
+    background-color: #dddddd;
+    content: "";
+    width: 21px;
+    height: 5px;
+    position: absolute;
+    right: -8px;
+    top: 7px;
+
+}
+
+table {
+	width: clamp(14rem, 13vw + 8rem, 35rem);
+    height: 300px;
+}
+
+thead {
+	color: white;
+	font-weight: bold;
+    height: 50px;
+    
+}
+
+td{
+    text-align:center;
 }
 
 @keyframes animate{
